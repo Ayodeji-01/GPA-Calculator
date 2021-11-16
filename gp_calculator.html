@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            GPA CALCULATOR
+        </title>
+        <script type="text/javascript" src="gp_calculator.js"></script>
+        <link rel="stylesheet" href="gp_calculator.css">
+    </head>
+    <body>
+        <form>
+        <div class="row">
+            <div class="column">
+                <p>
+                    <table border="1">
+                        <tr>
+                            <th>Letter Grade</th>
+                            <th>Scores Class</th>
+                            <th>Points</th>
+                        </tr>
+                        <tr>
+                            <td>A</td>
+                            <td>75-100</td>
+                            <td>4.0</td>
+                        </tr>
+                        <tr>
+                            <td>AB</td>
+                            <td>70-74.99</td>
+                            <td>3.5</td>
+                        </tr>
+                        <tr>
+                            <td>B</td>
+                            <td>65-69.99</td>
+                            <td>3.25</td>
+                        </tr>
+                        <tr>
+                            <td>BC</td>
+                            <td>60-64.99</td>
+                            <td>3.0</td>
+                        </tr>
+                        <tr>
+                            <td>C</td>
+                            <td>55-59.99</td>
+                            <td>2.75</td>
+                        </tr>
+                        <tr>
+                            <td>CD</td>
+                            <td>50-54.99</td>
+                            <td>2.5</td>
+                        </tr>
+                        <tr>
+                            <td>D</td>
+                            <td>45-49.99</td>
+                            <td>2.25</td>
+                        </tr>
+                        <tr>
+                            <td>E</td>
+                            <td>40-44.99</td>
+                            <td>2.0</td>
+                        </tr>
+                        <tr>
+                            <td>F</td>
+                            <td>0-39.99</td>
+                            <td>0</td>
+                        </tr>
+                    </table>
+                </p>
+            </div>
+            <div class="column">
+                <form></br></br></br>
+                    <input type="text" placeholder="input course 1" id="course1">
+                    <select id="acquired_grade_course1">
+                        <option>select grade</option>
+                        <option value="4.0">A</option>
+                        <option value="3.5">AB</option>
+                        <option value="3.25">B</option>
+                        <option value="3.0">BC</option>
+                        <option value="2.75">C</option>
+                        <option value="2.5">CD</option>
+                        <option value="2.25">D</option>
+                        <option value="2.0">E</option>
+                        <option value="0">F</option>
+                    </select>
+                    <select id="course1_unit1">
+                        <option>select course unit</option>
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    </br></br>
+                    <input type="text" placeholder="input course 2" id="course2">
+                    <select id="acquired_grade_course2">
+                        <option>select grade</option>
+                        <option value="4.0">A</option>
+                        <option value="3.5">AB</option>
+                        <option value="3.25">B</option>
+                        <option value="3.0">BC</option>
+                        <option value="2.75">C</option>
+                        <option value="2.5">CD</option>
+                        <option value="2.25">D</option>
+                        <option value="2.0">E</option>
+                        <option value="0">F</option>
+                    </select>
+                    <select id="course2_unit2">
+                        <option>select course unit</option>
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    </br></br>
+                    <input type="text" placeholder="input course 3" id="course3">
+                    <select id="acquired_grade_course3">
+                        <option>select grade</option>
+                        <option value="4.0">A</option>
+                        <option value="3.5">AB</option>
+                        <option value="3.25">B</option>
+                        <option value="3.0">BC</option>
+                        <option value="2.75">C</option>
+                        <option value="2.5">CD</option>
+                        <option value="2.25">D</option>
+                        <option value="2.0">E</option>
+                        <option value="0">F</option>
+                    </select>
+                    <select id="course3_unit3">
+                        <option>select course unit</option>
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    </br></br>
+                    <input type="text" placeholder="input course 4" id="course4">
+                    <select id="acquired_grade_course4">
+                        <option>select grade</option>
+                        <option value="4.0">A</option>
+                        <option value="3.5">AB</option>
+                        <option value="3.25">B</option>
+                        <option value="3.0">BC</option>
+                        <option value="2.75">C</option>
+                        <option value="2.5">CD</option>
+                        <option value="2.25">D</option>
+                        <option value="2.0">E</option>
+                        <option value="0">F</option>
+                    </select>
+                    <select id="course4_unit4">
+                        <option>select course unit</option>
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    </br></br>
+                    <input type="text" placeholder="input course 5" id="course5">
+                    <select id="acquired_grade_course5">
+                        <option>select grade</option>
+                        <option value="4.0">A</option>
+                        <option value="3.5">AB</option>
+                        <option value="3.25">B</option>
+                        <option value="3.0">BC</option>
+                        <option value="2.75">C</option>
+                        <option value="2.5">CD</option>
+                        <option value="2.25">D</option>
+                        <option value="2.0">E</option>
+                        <option value="0">F</option>
+                    </select>
+                    <select id="course5_unit5">
+                        <option>select course unit</option>
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    </br><br>
+                    <input type="text" placeholder="input course 6" id="course6">
+                    <select id="acquired_grade_course6">
+                        <option>select grade</option>
+                        <option value="4.0">A</option>
+                        <option value="3.5">AB</option>
+                        <option value="3.25">B</option>
+                        <option value="3.0">BC</option>
+                        <option value="2.75">C</option>
+                        <option value="2.5">CD</option>
+                        <option value="2.25">D</option>
+                        <option value="2.0">E</option>
+                        <option value="0">F</option>
+                    </select>
+                    <select id="course6_unit6">
+                        <option>select course unit</option>
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    </br></br>
+                    <input type="text" placeholder="input course 7" id="course7">
+                    <select id="acquired_grade_course7">
+                        <option>select grade</option>
+                        <option value="4.0">A</option>
+                        <option value="3.5">AB</option>
+                        <option value="3.25">B</option>
+                        <option value="3.0">BC</option>
+                        <option value="2.75">C</option>
+                        <option value="2.5">CD</option>
+                        <option value="2.25">D</option>
+                        <option value="2.0">E</option>
+                        <option value="0">F</option>
+                    </select>
+                    <select id="course7_unit7">
+                        <option>select course unit</option>
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    </br></br>
+                    <button type="button" onclick="calculateGPA()">get result</button>
+                </form>
+                
+                <div id="result" class="result_div"></div>
+            </div>
+        </div>
+        </form>
+    </body>
+</html>
